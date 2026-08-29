@@ -38,7 +38,15 @@ The trained model is evaluated using standard regression metrics:
 - **MAE** — average absolute prediction error.
 - **R²** — proportion of variance in `PE` explained by the model (closer to 1.0 is better).
 
-Actual vs. predicted values for the test set are included at the end of the notebook for a direct comparison.
+## Results
+
+| Metric | Training | Test |
+|---|---|---|
+| MSE  | 20.7806 | 19.1012 |
+| RMSE | 4.5585 | 4.3704 |
+| MAE  | - | 3.4761 |
+| R²   | - | 0.9332 |
+
 
 ## Project structure
 
